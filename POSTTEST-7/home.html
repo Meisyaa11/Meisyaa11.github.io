@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="popup-box" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()"></span>
+            <h2>Welcome to our tourist destination</h2>
+            <p>Discover natural and cultural beauty in our best tourist destinations.</p>
+            <br>
+            <button onclick="closePopup()">close</button>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">
+                HOLIYAY
+            </a>
+        </div>
+        <div class="navbar-toggle">
+            <div id="toggle">&#9776;</div>
+        </div>
+        <ul class="navbar-links">
+            <li onclick="toggleMode()" id="mode">Change Theme</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <a href="admin.php" class="portal-btn" id="portal-btn">
+                <button>Menu Admin</button>
+            </a>
+            <a href="registrasi.php" class="portal-btn" id="portal-btn">
+                <button>Booking Ticket</button>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <br><br>
+        <h1 id="your-dream-destination">YOUR DREAM DESTINATION</h1>
+        <p>Making your vacation dreams a reality</p>
+    </div>
+
+    <div class="container">
+        <h1>Place to relax</h1>
+        <div class="gallery">
+            <div class="photo">
+                <img src="foto/maratua.jpg" alt="Foto 1">
+                <div class="caption-box">Maratua Island</div>
+            </div>
+            <div class="photo">
+                <img src="foto/stone garden.webp" alt="Foto 2">
+                <div class="caption-box">Stone Garden Padalarang</div>
+            </div>
+            <div class="photo">
+                <img src="foto/maldives.jpg" alt="Foto 3">
+                <div class="caption-box">Maldives Island</div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="photo">
+                <img src="foto/hua hin.jpg" alt="Foto 1">
+                <div class="caption-box">Hua Hin, Thailand</div>
+            </div>
+            <div class="photo">
+                <img src="foto/grafika.jpg" alt="Foto 2">
+                <div class="caption-box">Terminal wisata Grafika Cikole, lembang</div>
+            </div>
+            <div class="photo">
+                <img src="foto/cermin.jpg" alt="Foto 3">
+                <div class="caption-box">Danau Cermin, biduk-biduk</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <h1>Historic Sites</h1>
+        <div class="image-container">
+            <div class="image-card">
+                <a href="https://maps.app.goo.gl/MD9ob4JryHR2X2WS8">
+                    <img src="foto/borobudur.jpg" alt="Gambar 1">
+                    <div class="caption1">Candi Borobudur, Magelang</div>
+                </a>
+            </div>
+            <div class="image-card">
+                <a href="https://maps.app.goo.gl/JUvZ1PQ3m6MEaBAk6">
+                    <img src="foto/lawang sewu.jpg" alt="Gambar 2">
+                    <div class="caption1">Lawang Sewu, Semarang</div>
+                </a>
+            </div>
+            <div class="image-card">
+                <a href="https://maps.app.goo.gl/WZFezgLty5NEwJgW9">
+                    <img src="foto/klenteng.jpg" alt="Gambar 3">
+                    <div class="caption1">Klenteng sam poo, Semarang</div>
+                </a>
+            </div>
+            <div class="image-card">
+                <a href="https://maps.app.goo.gl/xAeG5e2FqfNU2y5J9">
+                    <img src="foto/istana maimun.jpg" alt="Gambar 4">
+                    <div class="caption1">Istana Maimun, Medan</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1>Instagramable</h1>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="https://maps.app.goo.gl/NEA7TR9dsBJTXW4a8">
+                        <img src="foto/rabbit.jpg" alt="Gambar 1">
+                        <div class="caption">Rabbit town, Bandung</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://maps.app.goo.gl/7JHH2jjmdebZ5peX6">
+                        <img src="foto/motomoto.webp" alt="Gambar 2">
+                        <div class="caption">MotoMoto, Jakarta</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://maps.app.goo.gl/krwnLJdsRc1YPtWg9">
+                        <img src="foto/farmhouse.webp" alt="Gambar 3">
+                        <div class="caption">Farmhouse, lembang</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://maps.app.goo.gl/Ljprkoiyg2mmD4ZLA">
+                        <img src="foto/museumangkut.jpg" alt="Gambar 1">
+                        <div class="caption">Museum Angkut, Malang</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://maps.app.goo.gl/teLtpSmPXB42f5aD7">
+                        <img src="foto/kotamini.jpg" alt="Gambar 2">
+                        <div class="caption">Kota Mini, Lembang</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://maps.app.goo.gl/YE5iZneW6HM4t2VS8">
+                        <img src="foto/tembelan.jpg" alt="Gambar 3">
+                        <div class="caption">Jurang Tembelan, Yogyakarta</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-footer">
+                <p>&copy; 2023 Destination. Hak Cipta Dilindungi.</p>
+            </div>
+        </footer>
+</body>
+</html>
